@@ -17,7 +17,6 @@ import {useState} from "react";
 
 const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
-    console.log("rendering Header");
     return (
         <header className={`App-header ${isOpen ? "--is-opened" : ''}`}>
             <button className="menu" onClick={() => setIsOpen(!isOpen)}>

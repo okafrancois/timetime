@@ -25,12 +25,12 @@ const lastTimesheet = [
 
 function App() {
     const [state, setState] = useState({
+        userId: 1,
         days: getLastDays(),
         activeDay: getToday(),
         lastEntries: [...lastTimesheet],
         progressRef: 450,
     })
-
     const {days, activeDay, lastEntries, progressRef} = state;
     const [timeSheetTime, setTimeSheetTime] = useState("00");
 

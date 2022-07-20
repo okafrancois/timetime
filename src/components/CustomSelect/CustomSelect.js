@@ -14,12 +14,9 @@ import {useState} from "react";
  ---------- ---------- ---------- ---------- ----------
  */
 
-const CustomSelect = (props) => {
-    const {items, inputPlaceholder, autoComplete, suggestions, onOptionSelect, onSuggestionClick, activeOption} = props;
+const CustomSelect = ({items, inputPlaceholder, autoComplete, suggestions, onOptionSelect, onSuggestionClick, activeOption}) => {
     const currentValue = activeOption === "" ? inputPlaceholder : activeOption;
-
     const [inputValue, setInputValue] = useState(currentValue);
-
     const [openState, setOpenState] = useState(false);
     const [suggestionsState, setSuggestionsState] = useState(suggestions);
 

@@ -1,5 +1,4 @@
-const SelectBox = (props) => {
-    const {label, options, baseValue, onChange} = props;
+const SelectBox = ({label, options, baseValue, onChange}) => {
     return (
         <div className={"select-box button"}>
             <select className={"select-box__list"} value={`${baseValue}`} onChange={onChange}>

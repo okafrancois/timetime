@@ -15,9 +15,7 @@ import SelectBox from "../SelectBox/SelectBox.js";
   ---------- ---------- ---------- ---------- ----------
 */
 
-function TimesheetForm(props) {
-    const {lastTimeSheets, submitHandler, currentDate} = props;
-
+const TimesheetForm = ({lastTimeSheets, submitHandler, currentDate}) => {
     const [project, setProject] = useState("");
     const [task, setTask] = useState("");
     const [duration, setDuration] = useState({hours: "00", min: "00"});

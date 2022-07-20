@@ -1,7 +1,6 @@
 import './DayCard.scss';
 
-const DayCard = (props) => {
-    const {name, number, classes, progress, progressBase, onDayClick} = props;
+const DayCard = ({name, number, classes, progress, progressBase, onDayClick}) => {
     const fillState = () => {
         if (progress === 100) {
             return "--valid";
