@@ -1,0 +1,39 @@
+.timesheet-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px 0;
+
+  h2 {
+    margin-bottom: 10px;
+  }
+
+  input {
+    width: 100%;
+  }
+
+  .input {
+    border: none;
+    background: none;
+    color: inherit;
+    height: 60px;
+    border-radius: 10px;
+    background: #eaeaea;
+    font-size: 1.1em;
+    padding: 0.5rem 1rem;
+  }
+
+.duration-input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0 10px;
+
+  & > * {
+    width: 100%;
+  }
+
+    h2 {
+      margin-bottom: 0;
+    }
+  }
+}

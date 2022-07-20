@@ -1,0 +1,16 @@
+@use 'variables' as *;
+
+//convert a number into rem
+@function to-rem($pxValue) {
+  @return #{$pxValue / map-get($font-sizes, "base")}rem;
+}
+
+//return rem size from text size
+@function get-size($textSize) {
+  @return to-rem(map-get($font-sizes, $textSize));
+}
+
+//return a color from palette variable
+@function get-color($color) {
+  @return map-get($palette, $color);
+}

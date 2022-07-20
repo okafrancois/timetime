@@ -1,0 +1,45 @@
+/*
+  Index
+  ---------- ---------- ---------- ---------- ----------
+  • Colors
+  • Sizes
+  • UI sets
+*/
+
+/*
+  • Colors
+  ---------- ---------- ---------- ---------- ----------
+*/
+
+$palette: (
+        "primary": #FFCC00,
+        "secondary": #D3573C,
+        "alternative": #FAFAFA,
+        "black": #000,
+        "gray": #312E2E,
+        "white": #fff,
+);
+
+/*
+  • Sizes
+  ---------- ---------- ---------- ---------- ----------
+*/
+
+$base: 16;
+
+$font-sizes: (
+        "base": $base,
+        "header-large": $base * 4,
+        "header-medium": $base * 2.25,
+        "header-small": $base * 1.5,
+        "text-base": $base,
+        "text-small": $base * 0.8,
+        "text-xsmall": $base * 0.6,
+);
+
+/*
+  • UI sets
+  ---------- ---------- ---------- ---------- ----------
+*/
+
+$default-border-radius: 5px;

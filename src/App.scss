@@ -1,0 +1,19 @@
+
+.App {
+  width: 100vw;
+  min-height: 100vh;
+  padding-bottom: 80px;
+  overflow-x: hidden;
+
+  max-width: 480px;
+
+  .container {
+    padding: 15px;
+  }
+
+  .headings {
+    .user-time {
+      padding: 0 15px;
+    }
+  }
+}

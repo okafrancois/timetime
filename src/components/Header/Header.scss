@@ -1,0 +1,75 @@
+@use "../../styles/functions" as *;
+@use "../../styles/variables" as *;
+
+/*
+  Index
+  ---------- ---------- ---------- ---------- ----------
+  • Base styles
+*/
+
+/*
+  • Base styles
+  ---------- ---------- ---------- ---------- ----------
+*/
+
+.App-header {
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+
+  .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+    top: 15px;
+    right: 15px;
+    padding: 10px;
+    height: 45px;
+    aspect-ratio: 1/1;
+    border-radius: 8px;
+    background: #FFCC00;
+    cursor: pointer;
+
+    &__text {
+        font-size: 1.2rem;
+        font-weight: 800;
+        color: #2E2E2E;
+    }
+
+    img {
+      width: 18px;
+      aspect-ratio: 1/1;
+    }
+
+    &__content {
+      position: absolute;
+      background: #fff;
+      top: 80px;
+      padding: 15px;
+      border-radius: 10px;
+      width: calc(100% - 30px);
+      left: 15px;
+      right: 15px;
+      box-shadow: 0px 10px 30px 10px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease-in-out;
+      transform: scale(0);
+      transform-origin: top right;
+    }
+
+    &__content nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+  }
+}
+
+.--is-opened {
+    .menu__content {
+        transform: initial;
+    }
+}

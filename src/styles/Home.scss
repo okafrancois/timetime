@@ -1,0 +1,44 @@
+.home {
+  position: relative;
+  padding-top: 30px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+.slides h2 {
+  padding-right: 80px !important;
+}
+
+.card-slider {
+  &__wrapper {
+    display: flex;
+    overflow-x: scroll;
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+  }
+
+  &__wrapper::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.duration-value {
+  color: #FFCC00;
+}
+
+.slides h2 {
+  padding: 0 15px;
+}
+
+/* hide scrollbar but allow scrolling */
+.App, #root {
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+}
+
+.App::-webkit-scrollbar, #root::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
+}
+

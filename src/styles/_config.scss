@@ -1,0 +1,94 @@
+/*
+  Index
+  ---------- ---------- ---------- ---------- ----------
+  • Global styles
+*/
+
+/*
+  • Global styles
+  ---------- ---------- ---------- ---------- ----------
+*/
+
+body {
+  margin: 0;
+  font-family: Lato, 'Helvetica Neue', sans-serif;
+  color: #2E2E2E;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+
+button, select, input, textarea {
+  border: none;
+  background: none;
+  color: inherit;
+}
+
+.button {
+  min-height: 60px;
+  border-radius: 10px;
+  background: #eaeaea;
+  font-size: 1.1em;
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+button {
+  font-weight: 800;
+}
+
+.input {
+  input {
+    border: none;
+    background: none;
+    color: inherit;
+    height: 60px;
+    border-radius: 10px;
+    background: #eaeaea;
+    font-size: 1.1em;
+    padding: 0.5rem 1rem;
+  }
+}
+
+
+button.--primary {
+  background: #FFCC00;
+  color: #000;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.no-scroll {
+  overflow: hidden;
+  height: 100vh;
+  max-height: 100vh;
+  width: 100vw;
+}

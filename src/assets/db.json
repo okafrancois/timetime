@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "name": "Projet 1",
+    "entries": [
+      {
+        "date": "2020-01-01",
+        "duration": 420,
+        "tasks": "made a change in the code"
+      },
+      {
+        "date": "2020-01-01",
+        "duration": 200,
+        "tasks": "made a change in the code again"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Projet 2",
+    "entries": [
+      {
+        "date": "2020-01-01",
+        "duration": 420,
+        "tasks": "made a change in the code"
+      },
+      {
+        "date": "2020-01-01",
+        "duration": 200,
+        "tasks": "made a change in the code again"
+      }
+    ]
+  }
+]
